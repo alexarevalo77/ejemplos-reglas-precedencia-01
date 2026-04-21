@@ -3,14 +3,14 @@ Ejemplo de uso de reglas de precedencia
 
 La expresión es
 
-(3 + 2) * 5 > 20 and not (10 % 3 == 0)
+(4 + 2) * 5 > 20 and not (10 % 3 == 0)
  
 Paso a paso con precedencia aplicada ( así se lo debe hacer en algo
 similar a una miniespecificación)
 
 1.  Paréntesis internos primero
 
-    (3 + 2) es igual a 5
+    (4 + 2) es igual a 5
     (10 % 3) es igual a 1 (El módulo da el residuo de la división 10 ÷ 3, que es 1)
     1 == 0 es igual a False (Comparación relacional: ¿1 es igual a 0? No.)
 
